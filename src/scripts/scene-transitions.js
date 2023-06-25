@@ -344,6 +344,7 @@ export class SceneTransition {
 			this.modal.css({ backgroundColor: this.options.bgColor, zIndex: zIndex });
 
 			this.modal.find(".scene-transitions-bg").css({
+                opacity: this.options.bgOpacity,
 				position: "absolute",
 				top: 0,
 				left: 0,
